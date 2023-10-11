@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main-fb{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F0F2F5;
+    display: flex;
+}
+#fb-left{
+    height: 100%;
+    width: 60%;
+    
+}
+#fb-left>img{
+    width: 24vw;
+    margin-left: 140px;
+    margin-top: 170px;
+}
+#fb-left>p{
+    font-size: 2.1vw;
+    margin-left: 170px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#fb-right{
+    height: 100%;
+    width: 40%;
+    /* background-color: blue; */
+}
+#container{
+    height: 50%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 140px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 100px #2578FE;
+
+}
+#text{
+    width: 300px;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid rgb(212, 212, 212);
+}
+#text-2{
+    width: 300px;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    border: 1px solid rgb(212, 212, 212);
+}
+button{
+    width: 90%;
+    margin: 0 20px;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(65, 105, 225);
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(77, 121, 255);
+}
+#link{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+#newAcc{
+    width: 50%;
+    margin: 0 110px;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(65, 225, 92);
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
+#newAcc:hover{
+    background-color: rgb(75, 255, 105);
+}
